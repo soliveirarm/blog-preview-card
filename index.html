@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="assets/images/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <title>Blog Preview Card</title>
+  </head>
+  <body class="h-screen bg-accent grid place-items-center text-custom-gray-950">
+    <main
+      class="bg-white flex flex-col gap-300 mx-150 p-300 rounded-[20px] max-w-[384px] border border-custom-gray-950 card"
+    >
+      <img
+        src="assets/images/illustration-article.svg"
+        class="max-w-[336px] w-full rounded-[10px]"
+      />
+
+      <div class="flex flex-col items-start gap-150">
+        <button class="rounded bg-accent font-extrabold text-sm px-150 py-50">
+          Learning
+        </button>
+        <p class="font-medium text-sm">Published 21 Dec 2023</p>
+        <h1 class="text-lg font-extrabold cursor-pointer hover:text-accent">
+          HTML & CSS foundations
+        </h1>
+        <p class="text-custom-gray-500 font-medium">
+          These languages are the backbone of every website, defining structure,
+          content, and presentation.
+        </p>
+      </div>
+
+      <span class="flex items-center gap-150">
+        <img class="size-400" src="assets/images/image-avatar.webp" />
+        <p class="text-sm font-extrabold">Greg Hooper</p>
+      </span>
+    </main>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
